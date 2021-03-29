@@ -1,0 +1,138 @@
+/*!
+* Comparison Model Report PDF CSS - v1.0
+* @author Anna
+*/
+body {
+    font-family: Arial;
+}
+table {
+    width: 100%;
+    border-spacing: 1;
+}
+thead tr{
+    background-color: #5c90d2;
+}
+thead th, thead td {
+    padding: 8px 5px 6px 5px;
+}
+thead th, thead td {
+    color: #fff;
+}
+tbody td {
+    padding: 6px 5px;
+}
+.progress-bar-danger {
+    background-color: #d26a5c;
+}
+.progress-bar-warning {
+    background-color: #f3b760;
+}
+.progress-bar-success {
+    background-color: #46c37b;
+}
+.text-danger {
+    color: #d26a5c;
+}
+.text-warning {
+    color: #f3b760;
+}
+.text-success {
+    color: #46c37b;
+}
+.text-primary {
+    color: <?php echo $primaryColor; ?>;
+}
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.bg-modern {
+    background-color: #14adc4;
+}
+.bg-default {
+    background-color: #5c90d2;
+}
+.progress-bar {
+    text-align: center;
+    padding: 2px 0;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+.element-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+.push-10-b {
+    margin-bottom: 10px;
+}
+.remove-margin-t {
+    margin-top: 0px;
+}
+.padding-15-l {
+    padding-left: 15px;
+}
+.padding-2-5 {
+    padding: 2px 5px;
+}
+.padding-10-r {
+    padding-right: 10px;
+}
+.remove-border {
+    border: none;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.full-width {
+    width: 100%;
+}
+.w-pt-10 {
+    width: 10%;
+}
+.w-pt-15 {
+    width: 15%;
+}
+.w-pt-20 {
+    width: 20%;
+}
+.w-pt-25 {
+    width: 25%;
+}
+.w-pt-60 {
+    width: 60%;
+}
+.w-pt-65 {
+    width: 65%;
+}
+.w-pt-80 {
+    width: 80%;
+}
+.w-pt-90 {
+    width: 90%;
+}
+.w-px-16 {
+    width: 16px;
+}
+.v-center {
+    vertical-align: middle;
+}
+.icon-info-circle {
+    width: 4px; 
+    height: 16px; 
+    padding: 0 6px; 
+    border-radius: 8px; 
+    color: white; 
+    background-color: <?php echo $primaryColor; ?>;
+}
