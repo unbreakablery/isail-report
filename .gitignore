@@ -1,4 +1,5 @@
 **/node_modules
+/vendor
 .git_a
 .git_u
 .git_g
